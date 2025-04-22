@@ -50,5 +50,23 @@
         "description": "Get to know the team that brought Frame Generator to life."
       }
     }
+  },
+  "generator": {
+    "seo": {
+      "title": "Generator – Frame Generator",
+      "description": "Create personalized profile picture frames in seconds. Perfect for LinkedIn, job applications, and social media.",
+      "keywords": "frame generator, profile editor, LinkedIn frame, job seeker tool, open to work, photo editor",
+      "ogLocale": "en_US",
+      "openGraph": {
+        "title": "Generator – Frame Generator",
+        "description": "Easily design your professional profile picture frame.",
+        "siteName": "Frame Generator",
+        "imageAlt": "Preview of frame generator in action"
+      },
+      "twitter": {
+        "title": "Generator – Frame Generator",
+        "description": "Design and download your own LinkedIn-ready profile frame."
+      }
+    }
   }
 }
