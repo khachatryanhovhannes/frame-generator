@@ -2,31 +2,31 @@ import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations();
+  const t = await getTranslations("about.seo");
 
   return {
-    title: t("about.seo.title"),
-    description: t("about.seo.description"),
-    keywords: t("about.seo.keywords"),
+    title: t("title"),
+    description: t("description"),
+    keywords: t("keywords"),
     openGraph: {
-      title: t("about.seo.openGraph.title"),
-      description: t("about.seo.openGraph.description"),
-      siteName: t("about.seo.openGraph.siteName"),
+      title: t("openGraph.title"),
+      description: t("openGraph.description"),
+      siteName: t("openGraph.siteName"),
       images: [
         {
           url: "https://framegenerator.net/logo.png",
           width: 1200,
           height: 630,
-          alt: t("about.seo.openGraph.imageAlt"),
+          alt: t("openGraph.imageAlt"),
         },
       ],
-      locale: t("about.seo.ogLocale"),
+      locale: t("ogLocale"),
       type: "website",
     },
     twitter: {
       card: "summary_large_image",
-      title: t("about.seo.twitter.title"),
-      description: t("about.seo.twitter.description"),
+      title: t("twitter.title"),
+      description: t("twitter.description"),
       images: ["https://framegenerator.net/logo.png"],
     },
     metadataBase: new URL("https://framegenerator.net"),
