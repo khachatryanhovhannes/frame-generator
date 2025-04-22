@@ -1,0 +1,18 @@
+{
+  "seo": {
+    "title": "Frame Generator – Make Your Profile Picture Stand Out",
+    "description": "Generate professional profile picture frames in seconds. Perfect for LinkedIn, Facebook, job applications, and more.",
+    "keywords": "profile frame generator, profile picture editor, profile design, LinkedIn profile, Facebook profile, professional branding, open to work, personal branding tool",
+    "openGraph": {
+      "siteName": "Frame Generator",
+      "title": "Frame Generator – Make Your Profile Picture Stand Out",
+      "description": "Create stunning profile frames to showcase your personality and professionalism across platforms.",
+      "imageAlt": "Profile Frame Generator preview"
+    },
+    "twitter": {
+      "title": "Frame Generator – Make Your Profile Picture Stand Out",
+      "description": "Create stunning profile frames for LinkedIn, Facebook, and other platforms."
+    },
+    "ogLocale": "en_US"
+  }
+}
