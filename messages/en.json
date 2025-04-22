@@ -32,5 +32,23 @@
         "description": "Discover who built the Frame Generator."
       }
     }
+  },
+  "ourTeam": {
+    "seo": {
+      "title": "Our Team – Frame Generator",
+      "description": "Meet the people behind the Frame Generator. Passionate professionals building tools that help you stand out.",
+      "keywords": "our team, about frame generator, meet the team, profile frame creators, branding experts",
+      "ogLocale": "en_US",
+      "openGraph": {
+        "title": "Our Team – Frame Generator",
+        "description": "Discover the minds behind the Frame Generator project.",
+        "siteName": "Frame Generator",
+        "imageAlt": "Photo of the Frame Generator team"
+      },
+      "twitter": {
+        "title": "Our Team – Frame Generator",
+        "description": "Get to know the team that brought Frame Generator to life."
+      }
+    }
   }
 }
