@@ -14,5 +14,23 @@
       "description": "Create stunning profile frames for LinkedIn, Facebook, and other platforms."
     },
     "ogLocale": "en_US"
+  },
+  "about": {
+    "seo": {
+      "title": "About – Frame Generator",
+      "description": "Learn more about the Frame Generator project and team.",
+      "keywords": "about us, team, profile frame generator, branding tool",
+      "ogLocale": "en_US",
+      "openGraph": {
+        "title": "About – Frame Generator",
+        "description": "Who we are and why we built this tool.",
+        "siteName": "Frame Generator",
+        "imageAlt": "Team behind Frame Generator"
+      },
+      "twitter": {
+        "title": "About – Frame Generator",
+        "description": "Discover who built the Frame Generator."
+      }
+    }
   }
 }
