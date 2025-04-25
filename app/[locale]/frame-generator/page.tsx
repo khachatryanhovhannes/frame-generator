@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
+import { FrameGenerator } from "../../../components/pages";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("generator.seo");
@@ -34,5 +35,5 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function Generator() {
-  return <>Generator</>;
+  return <FrameGenerator />;
 }

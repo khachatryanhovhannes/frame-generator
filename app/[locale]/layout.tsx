@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { Locale } from "../../i18n/routing";
 import type { Metadata } from "next";
+import "flowbite";
 import "../globals.css";
 
 export async function generateMetadata(): Promise<Metadata> {
