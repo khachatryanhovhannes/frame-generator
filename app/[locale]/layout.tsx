@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { Locale } from "../../i18n/routing";
 import { ThemeProvider } from "next-themes";
-import { Header } from "@/components/ui/organisms";
+import { Footer, Header } from "@/components/ui/organisms";
 import type { Metadata } from "next";
 import "../globals.css";
 
@@ -66,6 +66,7 @@ export default async function LocaleLayout(props: {
           >
             <Header />
             {children}
+            <Footer />
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>
