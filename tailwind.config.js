@@ -1,4 +1,4 @@
-import flowbitePlugin from "flowbite/plugin";
+
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -11,5 +11,5 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [flowbitePlugin],
+  plugins: [],
 }

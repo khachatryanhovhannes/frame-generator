@@ -1,12 +1,14 @@
 // app/page.tsx
 
 "use client";
+import ThemeSwitcher from "@/components/ui/theme-switcher";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <main className="flex flex-col items-center min-h-screen py-6 px-4 text-center bg-white">
+    <main className="flex flex-col items-center min-h-screen py-6 px-4 text-center bg-primary">
+      <ThemeSwitcher />
       <h1 className="text-3xl font-bold mb-8">Frame Generator</h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mb-12">
