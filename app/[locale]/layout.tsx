@@ -1,10 +1,11 @@
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages, getTranslations } from "next-intl/server";
+import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { Locale } from "../../i18n/routing";
+import { ThemeProvider } from "next-themes";
+import { Header } from "@/components/ui/organisms";
 import type { Metadata } from "next";
-import "flowbite";
 import "../globals.css";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -53,13 +54,19 @@ export default async function LocaleLayout(props: {
     notFound();
   }
 
-  const messages = await getMessages();
-
   return (
-    <html lang={locale}>
-      <body className="font-sans-armenian">
-        <NextIntlClientProvider messages={messages}>
-          {children}
+    <html lang={locale} suppressHydrationWarning>
+      <body className="font-sans-armenian bg-background">
+        <NextIntlClientProvider>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="light"
+            enableSystem={true}
+            disableTransitionOnChange
+          >
+            <Header />
+            {children}
+          </ThemeProvider>
         </NextIntlClientProvider>
       </body>
     </html>
