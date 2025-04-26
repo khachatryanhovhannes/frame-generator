@@ -1,7 +1,6 @@
 "use client";
 import CanvasEditor from "@/components/ui/canvas-editor";
-// import CanvasEditor from "@/components/ui/canvas-editor";
-import ControlsPanel from "@/components/ui/controls-panel";
+import ControlsPanel from "@/components/ui/organisms/controls-panel";
 import { useEffect, useState } from "react";
 
 export default function FrameGenerator() {
@@ -62,7 +61,7 @@ export default function FrameGenerator() {
   }, []);
 
   return (
-    <div className="bg-gray-200 min-h-screen min-w-screen">
+    <div className="h-[95vh]  overflow-hidden">
       <ControlsPanel
         handleFileChange={handleFileChange}
         frameColor={frameColor}
@@ -88,7 +87,7 @@ export default function FrameGenerator() {
         isCompactMode={isCompactMode}
       />
       {isCompactMode ? (
-        <div className="flex absolute justify-center items-center top-10 left-16 right-16 -z-0 mx-2">
+        <div className="flex absolute justify-center items-center top-28 left-16 right-16 -z-0 ">
           <CanvasEditor
             imageSrc={imageSrc}
             frameColor={frameColor}
@@ -105,7 +104,7 @@ export default function FrameGenerator() {
         </div>
       ) : (
         <div
-          className="flex absolute justify-center items-center top-6"
+          className="flex absolute justify-center items-center top-26"
           style={{
             zIndex: 0,
             left: (width - 600) / 2 + "px",
