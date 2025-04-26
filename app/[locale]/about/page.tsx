@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
+import { AboutPage } from "@/components/pages";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("about.seo");
@@ -34,5 +35,5 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function About() {
-  return <div>About Page</div>;
+  return <AboutPage />;
 }

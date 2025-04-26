@@ -31,6 +31,53 @@
         "title": "About – Frame Generator",
         "description": "Discover who built the Frame Generator."
       }
+    },
+    "hero": {
+      "title": "Our Creation is Born from Love",
+      "description": "We believe that every individual deserves to present their best self. We're here to help them find and showcase their inner light."
+    },
+    "cards": {
+      "sectionTitle": "Our Vision and Mission",
+      "sectionDescription": "We aspire to create a world where people can present themselves with confidence and inspiration.",
+      "vision": {
+        "title": "Vision",
+        "description": "We believe everyone can unlock their potential by presenting themselves correctly."
+      },
+      "mission": {
+        "title": "Mission",
+        "description": "To create tools that empower personal branding and growth."
+      },
+      "values": {
+        "title": "Values",
+        "description": "Quality, creativity, authenticity, individuality."
+      }
+    },
+    "team": {
+      "sectionTitle": "Meet Our Team",
+      "sectionDescription": "A small but passionate group dedicated to building empowering tools for personal branding.",
+      "members": [
+        {
+          "name": "Hovhannes Khachatryan",
+          "role": "Founder & Developer",
+          "description": "The mind and heart behind Frame Generator. Loves clean code, inspiring design, and impactful ideas.",
+          "image": "/images/team/hovhannes.png",
+          "linkedin": "https://www.linkedin.com/in/khachatryan-hovhannes/"
+        },
+        {
+          "name": "Gayane Harutyunyan",
+          "role": "Copywriter",
+          "description": "Crafts words that resonate and connect. Passionate about branding and meaningful communication.",
+          "image": "/images/team/gayane.png",
+          "linkedin": "https://www.linkedin.com/in/armanpetrosyan/"
+        },
+        {
+          "name": "Ani Mkrtchyan",
+          "role": "Designer",
+          "description": "Shapes the look and feel of Frame Generator. Believes in the power of aesthetics and clarity.",
+          "image": "/images/team/ani.jpg",
+          "linkedin": "https://www.linkedin.com/in/ani-mkrtchyan/"
+        }
+      ]
     }
   },
   "ourTeam": {
