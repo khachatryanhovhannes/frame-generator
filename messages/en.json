@@ -68,5 +68,31 @@
         "description": "Design and download your own LinkedIn-ready profile frame."
       }
     }
+  },
+  "donate": {
+    "seo": {
+      "title": "Donate – Frame Generator",
+      "description": "Support the Frame Generator project and help us build more free tools for professionals.",
+      "keywords": "donate, support frame generator, contribute, free tools, profile frame support",
+      "ogLocale": "en_US",
+      "openGraph": {
+        "title": "Donate – Frame Generator",
+        "description": "Contribute to the future of free professional tools like Frame Generator.",
+        "siteName": "Frame Generator",
+        "imageAlt": "Support Frame Generator"
+      },
+      "twitter": {
+        "title": "Donate – Frame Generator",
+        "description": "Help us build more free resources by supporting Frame Generator."
+      }
+    }
+  },
+  "navbar": {
+    "home": "Home",
+    "generator": "Frame Generator",
+    "about": "About Us",
+    "templates": "Templates",
+    "donate": "Donate",
+    "contact": "Contact"
   }
 }
