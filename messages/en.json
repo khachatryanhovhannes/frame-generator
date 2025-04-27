@@ -56,7 +56,7 @@
     },
     "cards": {
       "sectionTitle": "Our Vision and Mission",
-      "sectionDescription": "We aspire to create a world where people can present themselves with confidence and inspiration.",
+      "sectionDescription": "",
       "vision": {
         "title": "Vision",
         "description": "We believe everyone has hidden strength and the power to reach their best by presenting themselves the right way."
@@ -147,7 +147,7 @@
         "description": "Get ready to customize your profile with our upcoming template collection."
       }
     },
-    "comingSoonTitle": "New Templates Coming Soon 🚀",
+    "comingSoonTitle": "New Templates Coming Soon",
     "comingSoonDescription": "We’re creating powerful new templates that will make your profile stand out.",
     "backToHome": "Back to Home"
   },
@@ -170,7 +170,8 @@
     },
     "hero": {
       "title": "Let's Connect",
-      "description": "Have a question, feedback, or just want to say hello? We're always excited to hear from you.",
+      "description": "Have a question, feedback, or just want to say hello? ",
+      "description_second": "We're always excited to hear from you.",
       "linkedinButton": "Connect on LinkedIn"
     }
   },
@@ -193,7 +194,8 @@
     },
     "content": {
       "title": "Help us grow",
-      "description": "Your small donation could be the beginning of our next innovative idea. Become an essential part of our small team.",
+      "description": "Your small donation could be the beginning of our next innovative idea.",
+      "description_second": " Become an essential part of our small team.",
       "button": "Donate & Support"
     }
   },

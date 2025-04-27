@@ -15,6 +15,9 @@ export default async function DonatePage() {
           <p className="text-lg md:text-xl text-muted-foreground opacity-80 mb-8">
             {t("description")}
           </p>
+          <p className="text-lg md:text-xl text-muted-foreground opacity-80 mb-8">
+            {t("description_second")}
+          </p>
 
           <Link
             href="https://buymeacoffee.com/khachatryaq"
