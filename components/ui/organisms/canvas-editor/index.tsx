@@ -74,10 +74,24 @@ export default function CanvasEditor({
   const clampScale = (s: number): number => clamp(s, 0.3, 5);
 
   const clampOffset = (raw: Point): Point => {
-    const r = FIXED_CANVAS_SIZE / 2 - frameWidth;
-    const half = (FIXED_CANVAS_SIZE * scale) / 2;
-    const max = Math.max(0, half - r);
-    return { x: clamp(raw.x, -max, max), y: clamp(raw.y, -max, max) };
+    const canvasHalf = FIXED_CANVAS_SIZE / 2;
+    const r = canvasHalf - frameWidth;
+
+    const imgW =
+      imgDims.w * (FIXED_CANVAS_SIZE / Math.min(imgDims.w, imgDims.h)) * scale;
+    const imgH =
+      imgDims.h * (FIXED_CANVAS_SIZE / Math.min(imgDims.w, imgDims.h)) * scale;
+
+    const halfW = imgW / 2;
+    const halfH = imgH / 2;
+
+    const maxX = Math.max(0, halfW - r);
+    const maxY = Math.max(0, halfH - r);
+
+    return {
+      x: clamp(raw.x, -maxX, maxX),
+      y: clamp(raw.y, -maxY, maxY),
+    };
   };
 
   const hexToRGBA = (hex: string, a: number): string => {

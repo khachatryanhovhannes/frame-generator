@@ -1,6 +1,6 @@
 "use client";
-import CanvasEditor from "@/components/ui/canvas-editor";
-import ControlsPanel from "@/components/ui/organisms/controls-panel";
+import { CanvasEditor, ControlsPanel } from "@/components/ui/organisms";
+import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 
 export default function FrameGenerator() {
@@ -15,6 +15,7 @@ export default function FrameGenerator() {
   const [circleSize, setCircleSize] = useState(0);
   const [isCompactMode, setIsCompactMode] = useState(false);
   const [width, setWidth] = useState(1000);
+  const t = useTranslations("generator");
 
   const [angleDeg, setAngleDeg] = useState(120);
   const [scale, setScale] = useState(1);
@@ -87,24 +88,35 @@ export default function FrameGenerator() {
         isCompactMode={isCompactMode}
       />
       {isCompactMode ? (
-        <div className="flex absolute justify-center items-center top-28 left-16 right-16 -z-0 ">
-          <CanvasEditor
-            imageSrc={imageSrc}
-            frameColor={frameColor}
-            frameWidth={frameWidth}
-            text={text}
-            textColor={textColor}
-            textSize={textSize}
-            fontFamily={fontFamily}
-            fontWeight={fontWeight}
-            angleDeg={angleDeg}
-            scale={scale}
-            setScale={setScale}
-          />
-        </div>
+        <>
+          <div className=" absolute top-[25%] left-18 right-18 -z-0 ">
+            <CanvasEditor
+              imageSrc={imageSrc}
+              frameColor={frameColor}
+              frameWidth={frameWidth}
+              text={text}
+              textColor={textColor}
+              textSize={textSize}
+              fontFamily={fontFamily}
+              fontWeight={fontWeight}
+              angleDeg={angleDeg}
+              scale={scale}
+              setScale={setScale}
+            />
+            <div className="w-full text-center mt-5">💡 {t("tip")}</div>
+            <div className="w-full flex justify-center my-5">
+              <button
+                className="absolute inline-block bg-green-700 hover:bg-green-800 text-white font-semibold px-8 py-3 rounded-lg shadow-md transition cursor-pointer"
+                onClick={downloadImage}
+              >
+                {t("controls.download")}
+              </button>
+            </div>
+          </div>
+        </>
       ) : (
         <div
-          className="flex absolute justify-center items-center top-26"
+          className=" absolute top-26"
           style={{
             zIndex: 0,
             left: (width - 600) / 2 + "px",
@@ -124,6 +136,8 @@ export default function FrameGenerator() {
             scale={scale}
             setScale={setScale}
           />
+
+          <div className="w-full text-center mt-5">💡 {t("tip")}</div>
         </div>
       )}
     </div>

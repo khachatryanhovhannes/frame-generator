@@ -126,7 +126,8 @@
       "frameColor": "Frame Color",
       "uploadImage": "Upload Image",
       "download": "Download"
-    }
+    },
+    "tip": "Tip: You can drag the image to reposition it!"
   },
   "templates": {
     "seo": {
