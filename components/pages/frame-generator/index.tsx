@@ -62,7 +62,7 @@ export default function FrameGenerator() {
   }, []);
 
   return (
-    <div className="h-[95vh]  overflow-hidden">
+    <div className="h-[95vh] sm:h-[120vh] md:h-[95vh]   overflow-hidden">
       <ControlsPanel
         handleFileChange={handleFileChange}
         frameColor={frameColor}
@@ -116,7 +116,7 @@ export default function FrameGenerator() {
         </>
       ) : (
         <div
-          className=" absolute top-26"
+          className=" absolute top-26 "
           style={{
             zIndex: 0,
             left: (width - 600) / 2 + "px",
