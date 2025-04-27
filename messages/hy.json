@@ -188,6 +188,11 @@
         "title": "Donate – Frame Generator",
         "description": "Help us build more free resources by supporting Frame Generator."
       }
+    },
+    "content": {
+      "title": "Support Our Mission 🚀",
+      "description": "Your contribution helps us create more free tools to empower professionals worldwide. Every donation, big or small, fuels innovation and growth.",
+      "button": "Donate & Support"
     }
   },
   "navbar": {
