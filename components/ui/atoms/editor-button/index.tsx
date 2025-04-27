@@ -89,18 +89,34 @@ function EditorButton<T extends InputType>({
 
   return (
     <div ref={wrapperRef} className="relative inline-block">
-      <button
-        type="button"
-        onClick={handleButtonClick}
-        className={`text-2xl p-1 sm:p-2 sm:text-2xl md:text-3xl  2xl:text-4xl flex flex-col
+      {inputType === "color" ? (
+        <label
+          htmlFor={text}
+          className={`text-2xl p-1 sm:p-2 sm:text-2xl md:text-3xl  2xl:text-4xl flex flex-col
+          justify-center items-center md:w-20 md:h-20 xl:w-24 xl:h-24  w-14 h-14 leading-none
+           rounded-full text-center bg-primary cursor-pointer ${
+             extraClassName || ""
+           }`}
+        >
+          {icon}
+          <p className="text-[10px] md:text-[14px] xl:text-[16px]">
+            {text || ""}
+          </p>
+        </label>
+      ) : (
+        <button
+          type="button"
+          onClick={handleButtonClick}
+          className={`text-2xl p-1 sm:p-2 sm:text-2xl md:text-3xl  2xl:text-4xl flex flex-col
           justify-center items-center md:w-20 md:h-20 xl:w-24 xl:h-24  w-14 h-14 leading-none
            rounded-full  bg-primary cursor-pointer ${extraClassName || ""}`}
-      >
-        {icon}
-        <p className="text-[10px] md:text-[14px] xl:text-[16px]">
-          {text || ""}
-        </p>
-      </button>
+        >
+          {icon}
+          <p className="text-[10px] md:text-[14px] xl:text-[16px]">
+            {text || ""}
+          </p>
+        </button>
+      )}
 
       {(inputType === "color" || inputType === "file") && (
         <input
@@ -108,7 +124,8 @@ function EditorButton<T extends InputType>({
           type={inputType}
           accept={accept}
           onChange={handleChange}
-          className="w-0 h-o"
+          className="w-0 h-0 absolute t-0"
+          id={text || undefined}
         />
       )}
 

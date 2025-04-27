@@ -126,7 +126,8 @@
       "frameColor": "Շրջանակի Գույնը",
       "uploadImage": "Ներբեռնել Նկար",
       "download": "Ներբեռնել"
-    }
+    },
+    "tip": "Tip: You can drag the image to reposition it!"
   },
   "templates": {
     "seo": {
