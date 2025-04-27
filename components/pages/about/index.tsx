@@ -33,6 +33,7 @@ export default async function AboutPage() {
   return (
     <main className="px-4 base:px-6 md:px-12 lg:px-20 xl:px-28 2xl:px-32">
       <section className="text-center md:text-left min-h-[80vh] flex flex-col md:flex-row items-center justify-between gap-12">
+        <div className="md:hidden"></div>
         <div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-text opacity-90">
             {tHero("title")}
@@ -105,7 +106,9 @@ export default async function AboutPage() {
                 <h3 className="text-2xl font-semibold text-text mb-1">
                   {member.name}
                 </h3>
-                <p className="text-text opacity-90 font-medium mb-2">{member.role}</p>
+                <p className="text-text opacity-90 font-medium mb-2">
+                  {member.role}
+                </p>
                 <p className="text-muted-foreground opacity-80 leading-relaxed mb-4">
                   {member.description}
                 </p>
