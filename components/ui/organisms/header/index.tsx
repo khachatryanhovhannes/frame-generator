@@ -39,7 +39,7 @@ function Header() {
   `}
       >
         <div className="flex flex-col items-start gap-6 p-6 pt-20">
-          <Navbar />
+          <Navbar onNavigate={() => setIsMenuOpen(false)} />
           <div className="flex justify-center w-full gap-5">
             <ThemeSwitcher />
             <LocaleSelector />
@@ -49,7 +49,7 @@ function Header() {
       {isMenuOpen && (
         <div
           onClick={toggleMenu}
-          className="fixed inset-0 bg-black bg-opacity-40 z-40"
+          className="fixed inset-0 bg-black opacity-80 z-[80]"
         />
       )}
     </header>

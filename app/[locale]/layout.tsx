@@ -7,6 +7,7 @@ import { ThemeProvider } from "next-themes";
 import { Footer, Header } from "@/components/ui/organisms";
 import type { Metadata } from "next";
 import "../globals.css";
+import BackToTop from "@/components/ui/atoms/back-to-top";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations();
@@ -67,6 +68,7 @@ export default async function LocaleLayout(props: {
             <Header />
             {children}
             <Footer />
+            <BackToTop />
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>

@@ -13,6 +13,8 @@ export default async function HomePage() {
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground opacity-80 max-w-2xl">
           {t("hero.description")}
+        </p>  <p className="text-lg md:text-xl text-muted-foreground opacity-80 max-w-2xl">
+          {t("hero.description_second")}
         </p>
         <div className="flex justify-center items-center gap-5 sm:flex-row flex-col">
           <Button text={t("hero.startButton")} link="/frame-generator" />
