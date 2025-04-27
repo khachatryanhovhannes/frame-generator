@@ -1,96 +1,96 @@
 {
   "seo": {
-    "title": "Frame Generator – Make Your Profile Picture Stand Out",
-    "description": "Generate professional profile picture frames in seconds. Perfect for LinkedIn, Facebook, job applications, and more.",
-    "keywords": "profile frame generator, profile picture editor, profile design, LinkedIn profile, Facebook profile, professional branding, open to work, personal branding tool",
+    "title": "Frame Generator – Դարձրու քո պրոֆիլի նկարը առանձնացող",
+    "description": "Ստեղծիր պրոֆիլի շրջանակային նկարներ վայրկյանների ընթացքում։ Հիանալի LinkedIn-ի, Facebook-ի, աշխատանքային դիմումների և ավելին համար։",
+    "keywords": "պրոֆիլի շրջանակ գեներատոր, պրոֆիլի նկար խմբագիր, պրոֆիլի դիզայն, LinkedIn պրոֆիլ, Facebook պրոֆիլ, պրոֆեսիոնալ բրենդավորում, բաց աշխատանքային հնարավորություններ, անհատական բրենդավորման գործիք",
     "openGraph": {
       "siteName": "Frame Generator",
-      "title": "Frame Generator – Make Your Profile Picture Stand Out",
-      "description": "Create stunning profile frames to showcase your personality and professionalism across platforms.",
-      "imageAlt": "Profile Frame Generator preview"
+      "title": "Frame Generator – Դարձրու քո պրոֆիլի նկարը առանձնացող",
+      "description": "Ստեղծիր հիասքանչ պրոֆիլի շրջանակային նկարներ՝ ցուցադրելու քո անհատականությունն ու պրոֆեսիոնալիզմը տարբեր հարթակներում։",
+      "imageAlt": "Frame Generator-ի նախադիտում"
     },
     "twitter": {
-      "title": "Frame Generator – Make Your Profile Picture Stand Out",
-      "description": "Create stunning profile frames for LinkedIn, Facebook, and other platforms."
+      "title": "Frame Generator – Դարձրու քո պրոֆիլի նկարը առանձնացող",
+      "description": "Ստեղծիր հիասքանչ պրոֆիլի շրջանակային նկարներ LinkedIn-ի, Facebook-ի և այլ հարթակների համար։"
     },
-    "ogLocale": "en_US"
+    "ogLocale": "hy_AM"
   },
   "home": {
     "hero": {
-      "title": "Create Stunning Profile Frames Effortlessly",
-      "description": "Build a professional, standout profile picture in just a few clicks. Whether for LinkedIn, Facebook, or your personal brand — we have you covered.",
-      "startButton": "Start Generating",
-      "linkedinButton": "Follow on LinkedIn"
+      "title": "Ստեղծիր Հիասքանչ Շրջանակային Նկարներ Հեշտությամբ",
+      "description": "Կառուցիր պրոֆեսիոնալ, առանձնացող պրոֆիլի նկար ընդամենը մի քանի քլիքով։ Չէզոք LinkedIn-ի, Facebook-ի կամ քո անձնական բրենդի համար՝ մենք քեզ հետ ենք։",
+      "startButton": "Սկսել Գեներացնել",
+      "linkedinButton": "Հետևել LinkedIn-ում"
     },
     "examples": {
-      "title": "Examples",
-      "description": "Explore some frames created with Frame Generator.",
-      "browseTemplatesButton": "Browse Templates"
+      "title": "Օրինակներ",
+      "description": "Դիտիր շրջանակային նկարներ, ստեղծված Frame Generator-ով։",
+      "browseTemplatesButton": "Դիտել Տեմպլեյթները"
     },
     "cta": {
-      "title": "Ready to Transform Your Profile?",
-      "description": "Join thousands who have elevated their online presence. It's easy, fast, and free!"
+      "title": "Պատրա՞ստ ես Փոխել Քո Պրոֆիլը",
+      "description": "Միացիր հազարավոր մարդկանց, ովքեր արդեն բարձրացրել են իրենց առցանց ներկայությունը։ Դա հեշտ է, արագ և անվճար։"
     }
   },
   "about": {
     "seo": {
-      "title": "About – Frame Generator",
-      "description": "Learn more about the Frame Generator project and team.",
-      "keywords": "about us, team, profile frame generator, branding tool",
-      "ogLocale": "en_US",
+      "title": "Մեր Մասին – Frame Generator",
+      "description": "Իմացիր ավելին Frame Generator նախագծի և թիմի մասին։",
+      "keywords": "մեր մասին, թիմ, պրոֆիլի շրջանակ գեներատոր, բրենդավորման գործիք",
+      "ogLocale": "hy_AM",
       "openGraph": {
-        "title": "About – Frame Generator",
-        "description": "Who we are and why we built this tool.",
+        "title": "Մեր Մասին – Frame Generator",
+        "description": "Ովքեր ենք մենք և ինչու ստեղծեցինք այս գործիքը։",
         "siteName": "Frame Generator",
-        "imageAlt": "Team behind Frame Generator"
+        "imageAlt": "Frame Generator թիմը"
       },
       "twitter": {
-        "title": "About – Frame Generator",
-        "description": "Discover who built the Frame Generator."
+        "title": "Մեր Մասին – Frame Generator",
+        "description": "Բացահայտիր, թե ով է ստեղծել Frame Generator-ը։"
       }
     },
     "hero": {
-      "title": "Our Creation is Born from Love",
-      "description": "We believe that every individual deserves to present their best self. We're here to help them find and showcase their inner light."
+      "title": "Մեր Ստեղծագործությունը Սիրուց Է Ծնվել",
+      "description": "Մենք հավատում ենք, որ յուրաքանչյուր անհատ արժանի է ներկայացնելու իր լավագույն կողմը։ Մենք այստեղ ենք՝ օգնելու նրանց գտնել և ցույց տալ իրենց ներքին լույսը։"
     },
     "cards": {
-      "sectionTitle": "Our Vision and Mission",
-      "sectionDescription": "We aspire to create a world where people can present themselves with confidence and inspiration.",
+      "sectionTitle": "Մեր Տեսլականը և Առաքելությունը",
+      "sectionDescription": "Մենք ձգտում ենք ստեղծել մի աշխարհ, որտեղ մարդիկ իրենց վստահությամբ և ոգեշնչմամբ կներկայացնեն։",
       "vision": {
-        "title": "Vision",
-        "description": "We believe everyone can unlock their potential by presenting themselves correctly."
+        "title": "Տեսլական",
+        "description": "Հավատում ենք, որ յուրաքանչյուրը կարող է բացահայտել իր ներուժը՝ ճիշտ ներկայանալով։"
       },
       "mission": {
-        "title": "Mission",
-        "description": "To create tools that empower personal branding and growth."
+        "title": "Առաքելություն",
+        "description": "Ստեղծել գործիքներ, որոնք աջակցում են անհատական բրենդավորմանը և աճին։"
       },
       "values": {
-        "title": "Values",
-        "description": "Quality, creativity, authenticity, individuality."
+        "title": "Արժեքներ",
+        "description": "Որակ, ստեղծագործություն, անկեղծություն, անհատականություն։"
       }
     },
     "team": {
-      "sectionTitle": "Meet Our Team",
-      "sectionDescription": "A small but passionate group dedicated to building empowering tools for personal branding.",
+      "sectionTitle": "Մեր Թիմը",
+      "sectionDescription": "Փոքր, բայց ոգեշնչված թիմ՝ նվիրված անհատական բրենդավորմանը աջակցող գործիքների ստեղծմանը։",
       "members": [
         {
-          "name": "Hovhannes Khachatryan",
-          "role": "Founder & Developer",
-          "description": "The mind and heart behind Frame Generator. Loves clean code, inspiring design, and impactful ideas.",
+          "name": "Հովհաննես Խաչատրյան",
+          "role": "Հիմնադիր և Ծրագրավորող",
+          "description": "Frame Generator-ի միտքը և սիրտը։ Սիրում է մաքուր կոդ, ոգեշնչող դիզայն և ազդեցիկ գաղափարներ։",
           "image": "/images/team/hovhannes.png",
           "linkedin": "https://www.linkedin.com/in/khachatryan-hovhannes/"
         },
         {
-          "name": "Gayane Harutyunyan",
-          "role": "Copywriter",
-          "description": "Crafts words that resonate and connect. Passionate about branding and meaningful communication.",
+          "name": "Գայանե Հարությունյան",
+          "role": "Քոփիռայթեր",
+          "description": "Ստեղծում է բառեր, որոնք հնչում և կապվում են։ Հավատում է բրենդավորման և իմաստալից հաղորդակցության ուժին։",
           "image": "/images/team/gayane.png",
           "linkedin": "https://www.linkedin.com/in/armanpetrosyan/"
         },
         {
-          "name": "Ani Mkrtchyan",
-          "role": "Designer",
-          "description": "Shapes the look and feel of Frame Generator. Believes in the power of aesthetics and clarity.",
+          "name": "Անի Մկրտչյան",
+          "role": "Դիզայներ",
+          "description": "Կազմակերպում է Frame Generator-ի տեսքը և զգացողությունը։ Հավատում է գեղագիտության և պարզության ուժին։",
           "image": "/images/team/ani.jpg",
           "linkedin": "https://www.linkedin.com/in/ani-mkrtchyan/"
         }
@@ -99,108 +99,108 @@
   },
   "generator": {
     "seo": {
-      "title": "Generator – Frame Generator",
-      "description": "Create personalized profile picture frames in seconds. Perfect for LinkedIn, job applications, and social media.",
-      "keywords": "frame generator, profile editor, LinkedIn frame, job seeker tool, open to work, photo editor",
-      "ogLocale": "en_US",
+      "title": "Գեներատոր – Frame Generator",
+      "description": "Ստեղծիր անհատական պրոֆիլի շրջանակներ վայրկյանների ընթացքում։ Հարմար LinkedIn-ի, աշխատանքի դիմումների և սոցիալական մեդիայի համար։",
+      "keywords": "շրջանակ գեներատոր, պրոֆիլի խմբագիր, LinkedIn շրջանակ, աշխատանք փնտրող գործիք, բաց աշխատանքային հնարավորություններ, լուսանկարի խմբագիր",
+      "ogLocale": "hy_AM",
       "openGraph": {
-        "title": "Generator – Frame Generator",
-        "description": "Easily design your professional profile picture frame.",
+        "title": "Գեներատոր – Frame Generator",
+        "description": "Հեշտությամբ դիզայնիր քո պրոֆեսիոնալ շրջանակային նկարը։",
         "siteName": "Frame Generator",
-        "imageAlt": "Preview of frame generator in action"
+        "imageAlt": "Frame Generator-ի գործողության նախադիտում"
       },
       "twitter": {
-        "title": "Generator – Frame Generator",
-        "description": "Design and download your own LinkedIn-ready profile frame."
+        "title": "Գեներատոր – Frame Generator",
+        "description": "Դիզայնիր և ներբեռնիր քո LinkedIn-ի համար պատրաստված շրջանակային նկարը։"
       }
     },
     "controls": {
-      "textColor": "Text Color",
-      "text": "Text",
-      "fontSize": "Font Size",
-      "fontWeight": "Font Weight",
-      "fontFamily": "Font Family",
-      "zoom": "Zoom",
-      "startAngle": "Start Angle",
-      "frameWidth": "Frame Width",
-      "frameColor": "Frame Color",
-      "uploadImage": "Upload Image",
-      "download": "Download"
+      "textColor": "Տեքստի Գույնը",
+      "text": "Տեքստ",
+      "fontSize": "Տառատեսակի Չափսը",
+      "fontWeight": "Տառատեսակի Հաստությունը",
+      "fontFamily": "Տառատեսակ",
+      "zoom": "Մեծացում",
+      "startAngle": "Սկսման Անկյունը",
+      "frameWidth": "Շրջանակի Լայնությունը",
+      "frameColor": "Շրջանակի Գույնը",
+      "uploadImage": "Ներբեռնել Նկար",
+      "download": "Ներբեռնել"
     }
   },
   "templates": {
     "seo": {
-      "title": "Templates – Frame Generator",
-      "description": "Discover ready-made professional profile frame templates. Coming soon to help you showcase your best self effortlessly.",
-      "keywords": "profile templates, frame templates, LinkedIn templates, professional branding, profile picture designs",
-      "ogLocale": "en_US",
+      "title": "Տեմպլեյթներ – Frame Generator",
+      "description": "Բացահայտիր պատրաստի պրոֆիլի շրջանակային տեմպլեյթներ։ Շուտով հասանելի կլինի՝ քեզ օգնելու պրոֆիլդ առավել ազդեցիկ դարձնելու համար։",
+      "keywords": "պրոֆիլի տեմպլեյթներ, շրջանակային տեմպլեյթներ, LinkedIn տեմպլեյթներ, պրոֆեսիոնալ բրենդավորում, պրոֆիլի նկարների դիզայն",
+      "ogLocale": "hy_AM",
       "openGraph": {
-        "title": "Templates – Frame Generator",
-        "description": "Explore a wide selection of professional profile frame templates. Launching soon!",
+        "title": "Տեմպլեյթներ – Frame Generator",
+        "description": "Շուտով հասանելի լայնածավալ պրոֆիլի շրջանակային տեմպլեյթների հավաքածու։",
         "siteName": "Frame Generator",
-        "imageAlt": "Profile Frame Templates preview"
+        "imageAlt": "Պրոֆիլի շրջանակային տեմպլեյթների նախադիտում"
       },
       "twitter": {
-        "title": "Templates – Frame Generator",
-        "description": "Get ready to customize your profile with our upcoming template collection."
+        "title": "Տեմպլեյթներ – Frame Generator",
+        "description": "Պատրաստվիր անհատականացնել քո պրոֆիլը մեր սպասվող տեմպլեյթներով։"
       }
     },
-    "comingSoonTitle": "Templates Coming Soon 🚀",
-    "comingSoonDescription": "We're working on a collection of powerful, ready-to-use templates to make your profile stand out even more. Stay tuned!",
-    "backToHome": "Back to Home"
+    "comingSoonTitle": "Տեմպլեյթները Շուտով Կլինեն 🚀",
+    "comingSoonDescription": "Մենք աշխատում ենք պատրաստի հզոր տեմպլեյթների հավաքածուի վրա, որպեսզի քո պրոֆիլը առանձնանա առավել։ Մնա կապի մեջ։",
+    "backToHome": "Վերադառնալ Գլխավոր Էջ"
   },
   "contact": {
     "seo": {
-      "title": "Contact – Frame Generator",
-      "description": "Get in touch with the Frame Generator team. We’re here to help you enhance your professional profile effortlessly.",
-      "keywords": "contact, support, help, frame generator support, customer service",
-      "ogLocale": "en_US",
+      "title": "Կապ – Frame Generator",
+      "description": "Կապվիր Frame Generator թիմի հետ։ Մենք պատրաստ ենք աջակցել քո պրոֆեսիոնալ ներկայության կատարելագործմանը։",
+      "keywords": "կապ, աջակցություն, օգնություն, Frame Generator աջակցություն, հաճախորդների սպասարկում",
+      "ogLocale": "hy_AM",
       "openGraph": {
-        "title": "Contact – Frame Generator",
-        "description": "Reach out to us with any questions or feedback about Frame Generator.",
+        "title": "Կապ – Frame Generator",
+        "description": "Կապ հաստատիր մեզ հետ՝ ցանկացած հարցի կամ կարծիքի դեպքում։",
         "siteName": "Frame Generator",
-        "imageAlt": "Contact Frame Generator Team"
+        "imageAlt": "Կապ Frame Generator թիմի հետ"
       },
       "twitter": {
-        "title": "Contact – Frame Generator",
-        "description": "Have questions? Contact the Frame Generator team for support and assistance."
+        "title": "Կապ – Frame Generator",
+        "description": "Ունե՞ս հարցեր։ Կապ հաստատիր Frame Generator թիմի հետ։"
       }
     },
     "hero": {
-      "title": "Let's Connect",
-      "description": "Have a question, feedback, or just want to say hello? We're always excited to hear from you.",
-      "linkedinButton": "Connect on LinkedIn"
+      "title": "Եկեք Կապվենք",
+      "description": "Ունե՞ս հարց, կարծիք կամ ուղղակի ուզում ես բարևել։ Միշտ ուրախ ենք լսել քեզ։",
+      "linkedinButton": "Կապվել LinkedIn-ում"
     }
   },
   "donate": {
     "seo": {
-      "title": "Donate – Frame Generator",
-      "description": "Support the Frame Generator project and help us build more free tools for professionals.",
-      "keywords": "donate, support frame generator, contribute, free tools, profile frame support",
-      "ogLocale": "en_US",
+      "title": "Նվիրաբերել – Frame Generator",
+      "description": "Աջակցիր Frame Generator նախագծին և օգնիր մեզ ստեղծել ավելի շատ անվճար գործիքներ պրոֆեսիոնալների համար։",
+      "keywords": "նվիրաբերել, աջակցել Frame Generator, ներդրում, անվճար գործիքներ, պրոֆիլի շրջանակային աջակցություն",
+      "ogLocale": "hy_AM",
       "openGraph": {
-        "title": "Donate – Frame Generator",
-        "description": "Contribute to the future of free professional tools like Frame Generator.",
+        "title": "Նվիրաբերել – Frame Generator",
+        "description": "Նպաստիր անվճար պրոֆեսիոնալ գործիքների ապագային՝ աջակցելով Frame Generator-ին։",
         "siteName": "Frame Generator",
-        "imageAlt": "Support Frame Generator"
+        "imageAlt": "Աջակցիր Frame Generator-ին"
       },
       "twitter": {
-        "title": "Donate – Frame Generator",
-        "description": "Help us build more free resources by supporting Frame Generator."
+        "title": "Նվիրաբերել – Frame Generator",
+        "description": "Օգնիր մեզ ստեղծել ավելի շատ անվճար ռեսուրսներ՝ աջակցելով Frame Generator-ին։"
       }
     },
     "content": {
-      "title": "Support Our Mission 🚀",
-      "description": "Your contribution helps us create more free tools to empower professionals worldwide. Every donation, big or small, fuels innovation and growth.",
-      "button": "Donate & Support"
+      "title": "Աջակցիր Մեր Առաքելությանը 🚀",
+      "description": "Քո աջակցությունը օգնում է մեզ ստեղծել ավելի շատ անվճար գործիքներ՝ աշխարհի պրոֆեսիոնալներին զորացնելու համար։ Ամեն նվիրատվություն, փոքր թե մեծ, սնուցում է նորարարությունը և աճը։",
+      "button": "Նվիրաբերել և Աջակցել"
     }
   },
   "navbar": {
-    "home": "Home",
+    "home": "Գլխավոր",
     "generator": "Frame Generator",
-    "about": "About Us",
-    "templates": "Templates",
-    "donate": "Donate",
-    "contact": "Contact"
+    "about": "Մեր Մասին",
+    "templates": "Տեմպլեյթներ",
+    "donate": "Նվիրաբերել",
+    "contact": "Կապ"
   }
 }
