@@ -70,117 +70,119 @@ export default function ControlsPanel({
   return (
     <div className="flex items-center justify-center h-screen overflow-hidden">
       {isCompactMode ? (
-        <div className="w-full h-full flex flex-wrap justify-between items-center px-2 py-12 gap-6">
-          <div className="flex flex-col gap-2 items-start fixed left-2 z-50">
-            <EditorButton
-              icon={<IoMdColorFill />}
-              value={frameColor}
-              setValue={(val) => {
-                if (typeof val === "string") setFrameColor(val);
-              }}
-              inputType="color"
-              text={tControls("frameColor")}
-            />
-            <EditorButton
-              icon={<RiFullscreenLine />}
-              value={frameWidth}
-              setValue={(val) => {
-                if (typeof val === "number") setFrameWidth(val);
-              }}
-              inputType="range"
-              min={50}
-              max={130}
-              step={1}
-              text={tControls("frameWidth")}
-            />
-            <EditorButton
-              icon={<RiRotateLockLine />}
-              value={angleDeg}
-              setValue={(val) => {
-                if (typeof val === "number") setAngleDeg(val);
-              }}
-              inputType="range"
-              min={0}
-              max={360}
-              step={1}
-              text={tControls("startAngle")}
-            />
-            <EditorButton
-              icon={<TiZoomIn />}
-              value={scale}
-              setValue={(val) => {
-                if (typeof val === "number") setScale(val);
-              }}
-              inputType="range"
-              min={0.1}
-              max={3}
-              step={0.1}
-              text={tControls("zoom")}
-            />
-            <ImageAddButton handleFileChange={handleFileChange} />
-          </div>
+        <>
+          <div className="w-full h-full  px-2 py-12 gap-6 mt-20 relative">
+            <div className="flex flex-col justify-between h-[50vh] gap-2 absolute left-2 z-50">
+              <EditorButton
+                icon={<IoMdColorFill />}
+                value={frameColor}
+                setValue={(val) => {
+                  if (typeof val === "string") setFrameColor(val);
+                }}
+                inputType="color"
+                text={tControls("frameColor")}
+              />
+              <EditorButton
+                icon={<RiFullscreenLine />}
+                value={frameWidth}
+                setValue={(val) => {
+                  if (typeof val === "number") setFrameWidth(val);
+                }}
+                inputType="range"
+                min={50}
+                max={130}
+                step={1}
+                text={tControls("frameWidth")}
+              />
+              <EditorButton
+                icon={<RiRotateLockLine />}
+                value={angleDeg}
+                setValue={(val) => {
+                  if (typeof val === "number") setAngleDeg(val);
+                }}
+                inputType="range"
+                min={0}
+                max={360}
+                step={1}
+                text={tControls("startAngle")}
+              />
+              <EditorButton
+                icon={<TiZoomIn />}
+                value={scale}
+                setValue={(val) => {
+                  if (typeof val === "number") setScale(val);
+                }}
+                inputType="range"
+                min={0.1}
+                max={3}
+                step={0.1}
+                text={tControls("zoom")}
+              />
+              <ImageAddButton handleFileChange={handleFileChange} />
+            </div>
 
-          <div className="flex flex-col gap-2 fixed right-2 z-50">
-            <EditorButton
-              icon={<IoColorFilterOutline />}
-              value={textColor}
-              setValue={(val) => {
-                if (typeof val === "string") setTextColor(val);
-              }}
-              inputType="color"
-              text={tControls("textColor")}
-            />
-            <EditorButton
-              icon={<RiAiGenerateText />}
-              value={text}
-              setValue={(val) => {
-                if (typeof val === "string") setText(val);
-              }}
-              inputType="text"
-              text={tControls("text")}
-            />
-            <EditorButton
-              icon={<RiFontSize />}
-              value={textSize}
-              setValue={(val) => {
-                if (typeof val === "number") setTextSize(val);
-              }}
-              inputType="number"
-              text={tControls("fontSize")}
-            />
-            <EditorButton
-              icon={<RiBold />}
-              value={fontWeight}
-              setValue={(val) => {
-                if (typeof val === "string") setFontWeight(val);
-              }}
-              inputType="select"
-              options={["300", "400", "500", "600", "700", "800", "900"]}
-              text={tControls("fontWeight")}
-            />
-            <EditorButton
-              icon={<RiFontFamily />}
-              value={fontFamily}
-              setValue={(val) => {
-                if (typeof val === "string") setFontFamily(val);
-              }}
-              inputType="select"
-              options={[
-                "Arial",
-                "Georgia",
-                "Helvetica",
-                "Times New Roman",
-                "Courier New",
-                "Verdana",
-                "Trebuchet MS",
-                "Comic Sans MS",
-                "Montserrat",
-                "Roboto",
-              ]}
-              text={tControls("fontFamily")}
-            />
+            <div className="flex flex-col justify-between h-[50vh] gap-2 absolute  right-2 z-50">
+              <EditorButton
+                icon={<IoColorFilterOutline />}
+                value={textColor}
+                setValue={(val) => {
+                  if (typeof val === "string") setTextColor(val);
+                }}
+                inputType="color"
+                text={tControls("textColor")}
+              />
+              <EditorButton
+                icon={<RiAiGenerateText />}
+                value={text}
+                setValue={(val) => {
+                  if (typeof val === "string") setText(val);
+                }}
+                inputType="text"
+                text={tControls("text")}
+              />
+              <EditorButton
+                icon={<RiFontSize />}
+                value={textSize}
+                setValue={(val) => {
+                  if (typeof val === "number") setTextSize(val);
+                }}
+                inputType="number"
+                text={tControls("fontSize")}
+              />
+              <EditorButton
+                icon={<RiBold />}
+                value={fontWeight}
+                setValue={(val) => {
+                  if (typeof val === "string") setFontWeight(val);
+                }}
+                inputType="select"
+                options={["300", "400", "500", "600", "700", "800", "900"]}
+                text={tControls("fontWeight")}
+              />
+              <EditorButton
+                icon={<RiFontFamily />}
+                value={fontFamily}
+                setValue={(val) => {
+                  if (typeof val === "string") setFontFamily(val);
+                }}
+                inputType="select"
+                options={[
+                  "Arial",
+                  "Georgia",
+                  "Helvetica",
+                  "Times New Roman",
+                  "Courier New",
+                  "Verdana",
+                  "Trebuchet MS",
+                  "Comic Sans MS",
+                  "Montserrat",
+                  "Roboto",
+                ]}
+                text={tControls("fontFamily")}
+              />
+            </div>
           </div>
-        </div>
+        </>
       ) : (
         <CircleMenu
           radius={circleSize / 2}
@@ -246,7 +248,7 @@ export default function ControlsPanel({
             text={tControls("fontFamily")}
           />
           <button
-            className="absolute bg-green-500 px-10 py-3 rounded-lg text-white"
+            className="absolute -ml-16  inline-block bg-green-700 cursor-pointer hover:bg-green-800 text-white font-semibold px-8 py-3 rounded-lg shadow-md transition"
             onClick={downloadImage}
           >
             {tControls("download")}
