@@ -1,5 +1,6 @@
+import HomePage from "./home";
 import FrameGenerator from "./frame-generator";
 import AboutPage from "./about";
-import HomePage from "./home";
+import TemplatesPage from "./templates";
 
-export { FrameGenerator, AboutPage, HomePage };
+export { FrameGenerator, AboutPage, HomePage, TemplatesPage };
