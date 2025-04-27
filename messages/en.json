@@ -15,6 +15,23 @@
     },
     "ogLocale": "en_US"
   },
+  "home": {
+    "hero": {
+      "title": "Create Stunning Profile Frames Effortlessly",
+      "description": "Build a professional, standout profile picture in just a few clicks. Whether for LinkedIn, Facebook, or your personal brand — we have you covered.",
+      "startButton": "Start Generating",
+      "linkedinButton": "Follow on LinkedIn"
+    },
+    "examples": {
+      "title": "Examples",
+      "description": "Explore some frames created with Frame Generator.",
+      "browseTemplatesButton": "Browse Templates"
+    },
+    "cta": {
+      "title": "Ready to Transform Your Profile?",
+      "description": "Join thousands who have elevated their online presence. It's easy, fast, and free!"
+    }
+  },
   "about": {
     "seo": {
       "title": "About – Frame Generator",
@@ -31,24 +48,53 @@
         "title": "About – Frame Generator",
         "description": "Discover who built the Frame Generator."
       }
-    }
-  },
-  "ourTeam": {
-    "seo": {
-      "title": "Our Team – Frame Generator",
-      "description": "Meet the people behind the Frame Generator. Passionate professionals building tools that help you stand out.",
-      "keywords": "our team, about frame generator, meet the team, profile frame creators, branding experts",
-      "ogLocale": "en_US",
-      "openGraph": {
-        "title": "Our Team – Frame Generator",
-        "description": "Discover the minds behind the Frame Generator project.",
-        "siteName": "Frame Generator",
-        "imageAlt": "Photo of the Frame Generator team"
+    },
+    "hero": {
+      "title": "Our Creation is Born from Love",
+      "description": "We believe that every individual deserves to present their best self. We're here to help them find and showcase their inner light."
+    },
+    "cards": {
+      "sectionTitle": "Our Vision and Mission",
+      "sectionDescription": "We aspire to create a world where people can present themselves with confidence and inspiration.",
+      "vision": {
+        "title": "Vision",
+        "description": "We believe everyone can unlock their potential by presenting themselves correctly."
       },
-      "twitter": {
-        "title": "Our Team – Frame Generator",
-        "description": "Get to know the team that brought Frame Generator to life."
+      "mission": {
+        "title": "Mission",
+        "description": "To create tools that empower personal branding and growth."
+      },
+      "values": {
+        "title": "Values",
+        "description": "Quality, creativity, authenticity, individuality."
       }
+    },
+    "team": {
+      "sectionTitle": "Meet Our Team",
+      "sectionDescription": "A small but passionate group dedicated to building empowering tools for personal branding.",
+      "members": [
+        {
+          "name": "Hovhannes Khachatryan",
+          "role": "Founder & Developer",
+          "description": "The mind and heart behind Frame Generator. Loves clean code, inspiring design, and impactful ideas.",
+          "image": "/images/team/hovhannes.png",
+          "linkedin": "https://www.linkedin.com/in/khachatryan-hovhannes/"
+        },
+        {
+          "name": "Gayane Harutyunyan",
+          "role": "Copywriter",
+          "description": "Crafts words that resonate and connect. Passionate about branding and meaningful communication.",
+          "image": "/images/team/gayane.png",
+          "linkedin": "https://www.linkedin.com/in/armanpetrosyan/"
+        },
+        {
+          "name": "Ani Mkrtchyan",
+          "role": "Designer",
+          "description": "Shapes the look and feel of Frame Generator. Believes in the power of aesthetics and clarity.",
+          "image": "/images/team/ani.jpg",
+          "linkedin": "https://www.linkedin.com/in/ani-mkrtchyan/"
+        }
+      ]
     }
   },
   "generator": {
@@ -67,6 +113,94 @@
         "title": "Generator – Frame Generator",
         "description": "Design and download your own LinkedIn-ready profile frame."
       }
+    },
+    "controls": {
+      "textColor": "Text Color",
+      "text": "Text",
+      "fontSize": "Font Size",
+      "fontWeight": "Font Weight",
+      "fontFamily": "Font Family",
+      "zoom": "Zoom",
+      "startAngle": "Start Angle",
+      "frameWidth": "Frame Width",
+      "frameColor": "Frame Color",
+      "uploadImage": "Upload Image",
+      "download": "Download"
     }
+  },
+  "templates": {
+    "seo": {
+      "title": "Templates – Frame Generator",
+      "description": "Discover ready-made professional profile frame templates. Coming soon to help you showcase your best self effortlessly.",
+      "keywords": "profile templates, frame templates, LinkedIn templates, professional branding, profile picture designs",
+      "ogLocale": "en_US",
+      "openGraph": {
+        "title": "Templates – Frame Generator",
+        "description": "Explore a wide selection of professional profile frame templates. Launching soon!",
+        "siteName": "Frame Generator",
+        "imageAlt": "Profile Frame Templates preview"
+      },
+      "twitter": {
+        "title": "Templates – Frame Generator",
+        "description": "Get ready to customize your profile with our upcoming template collection."
+      }
+    },
+    "comingSoonTitle": "Templates Coming Soon 🚀",
+    "comingSoonDescription": "We're working on a collection of powerful, ready-to-use templates to make your profile stand out even more. Stay tuned!",
+    "backToHome": "Back to Home"
+  },
+  "contact": {
+    "seo": {
+      "title": "Contact – Frame Generator",
+      "description": "Get in touch with the Frame Generator team. We’re here to help you enhance your professional profile effortlessly.",
+      "keywords": "contact, support, help, frame generator support, customer service",
+      "ogLocale": "en_US",
+      "openGraph": {
+        "title": "Contact – Frame Generator",
+        "description": "Reach out to us with any questions or feedback about Frame Generator.",
+        "siteName": "Frame Generator",
+        "imageAlt": "Contact Frame Generator Team"
+      },
+      "twitter": {
+        "title": "Contact – Frame Generator",
+        "description": "Have questions? Contact the Frame Generator team for support and assistance."
+      }
+    },
+    "hero": {
+      "title": "Let's Connect",
+      "description": "Have a question, feedback, or just want to say hello? We're always excited to hear from you.",
+      "linkedinButton": "Connect on LinkedIn"
+    }
+  },
+  "donate": {
+    "seo": {
+      "title": "Donate – Frame Generator",
+      "description": "Support the Frame Generator project and help us build more free tools for professionals.",
+      "keywords": "donate, support frame generator, contribute, free tools, profile frame support",
+      "ogLocale": "en_US",
+      "openGraph": {
+        "title": "Donate – Frame Generator",
+        "description": "Contribute to the future of free professional tools like Frame Generator.",
+        "siteName": "Frame Generator",
+        "imageAlt": "Support Frame Generator"
+      },
+      "twitter": {
+        "title": "Donate – Frame Generator",
+        "description": "Help us build more free resources by supporting Frame Generator."
+      }
+    },
+    "content": {
+      "title": "Support Our Mission 🚀",
+      "description": "Your contribution helps us create more free tools to empower professionals worldwide. Every donation, big or small, fuels innovation and growth.",
+      "button": "Donate & Support"
+    }
+  },
+  "navbar": {
+    "home": "Home",
+    "generator": "Frame Generator",
+    "about": "About Us",
+    "templates": "Templates",
+    "donate": "Donate",
+    "contact": "Contact"
   }
 }

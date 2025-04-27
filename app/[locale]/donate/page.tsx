@@ -1,9 +1,9 @@
 import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
-import { TemplatesPage } from "@/components/pages";
+import { DonatePage } from "@/components/pages";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations("templates.seo");
+  const t = await getTranslations("donate.seo");
 
   return {
     title: t("title"),
@@ -34,6 +34,6 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default function Templates() {
-  return <TemplatesPage />;
+export default function Donate() {
+  return <DonatePage />;
 }
