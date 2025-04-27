@@ -1,3 +1,5 @@
+"use client";
+
 import React, { ChangeEvent } from "react";
 import { EditorButton, ImageAddButton } from "../../atoms";
 import { IoMdColorFill } from "react-icons/io";
@@ -12,6 +14,7 @@ import {
 import { IoColorFilterOutline } from "react-icons/io5";
 import { TiZoomIn } from "react-icons/ti";
 import { CircleMenu } from "@/hoc";
+import { useTranslations } from "next-intl";
 
 interface IControlsPanelProps {
   handleFileChange: (e: ChangeEvent<HTMLInputElement>) => void;
@@ -62,129 +65,127 @@ export default function ControlsPanel({
   isCompactMode,
   circleSize,
 }: IControlsPanelProps) {
-  return (
-    <div className="flex items-center justify-center h-screen  overflow-hidden">
-      {isCompactMode ? (
-        <>
-          <div className="w-full h-full flex flex-wrap justify-between items-center px-2 py-12 gap-6">
-            <div className="flex flex-col gap-2 items-start fixed left-2 z-50">
-              <EditorButton
-                icon={<IoMdColorFill />}
-                value={frameColor}
-                setValue={(val) => {
-                  if (typeof val === "string") {
-                    setFrameColor(val);
-                  }
-                }}
-                inputType="color"
-              />
-              <EditorButton
-                icon={<RiFullscreenLine />}
-                value={frameWidth}
-                setValue={(val) => {
-                  if (typeof val === "number") {
-                    setFrameWidth(val);
-                  }
-                }}
-                inputType="range"
-                min={1}
-                max={100}
-                step={1}
-              />
+  const tControls = useTranslations("generator.controls");
 
-              <EditorButton
-                icon={<RiRotateLockLine />}
-                value={angleDeg}
-                setValue={(val) => {
-                  if (typeof val === "number") setAngleDeg(val);
-                }}
-                inputType="range"
-                min={0}
-                max={360}
-                step={1}
-              />
-              <EditorButton
-                icon={<TiZoomIn />}
-                value={scale}
-                setValue={(val) => {
-                  if (typeof val === "number") setScale(val);
-                }}
-                inputType="range"
-                min={0.1}
-                max={3}
-                step={0.1}
-              />
-              <ImageAddButton handleFileChange={handleFileChange} />
-            </div>
-            <div className="flex flex-col gap-2  fixed right-2 z-50">
-              <EditorButton
-                icon={<IoColorFilterOutline />}
-                value={textColor}
-                setValue={(val) => {
-                  if (typeof val === "string") setTextColor(val);
-                }}
-                inputType="color"
-              />
-              <EditorButton
-                icon={<RiAiGenerateText />}
-                value={text}
-                setValue={(val) => {
-                  if (typeof val === "string") setText(val);
-                }}
-                inputType="text"
-              />
-              <EditorButton
-                icon={<RiFontSize />}
-                value={textSize}
-                setValue={(val) => {
-                  if (typeof val === "number") setTextSize(val);
-                }}
-                inputType="number"
-              />
-              <EditorButton
-                icon={<RiBold />}
-                value={fontWeight}
-                setValue={(val) => {
-                  if (typeof val === "string") setFontWeight(val);
-                }}
-                inputType="select"
-                options={["300", "400", "500", "600", "700", "800", "900"]}
-              />
-              <EditorButton
-                icon={<RiFontFamily />}
-                value={fontFamily}
-                setValue={(val) => {
-                  if (typeof val === "string") setFontFamily(val);
-                }}
-                inputType="select"
-                options={[
-                  "Arial",
-                  "Georgia",
-                  "Helvetica",
-                  "Times New Roman",
-                  "Courier New",
-                  "Verdana",
-                  "Trebuchet MS",
-                  "Comic Sans MS",
-                  "Montserrat",
-                  "Roboto",
-                ]}
-              />
-            </div>
+  return (
+    <div className="flex items-center justify-center h-screen overflow-hidden">
+      {isCompactMode ? (
+        <div className="w-full h-full flex flex-wrap justify-between items-center px-2 py-12 gap-6">
+          <div className="flex flex-col gap-2 items-start fixed left-2 z-50">
+            <EditorButton
+              icon={<IoMdColorFill />}
+              value={frameColor}
+              setValue={(val) => {
+                if (typeof val === "string") setFrameColor(val);
+              }}
+              inputType="color"
+              text={tControls("frameColor")}
+            />
+            <EditorButton
+              icon={<RiFullscreenLine />}
+              value={frameWidth}
+              setValue={(val) => {
+                if (typeof val === "number") setFrameWidth(val);
+              }}
+              inputType="range"
+              min={50}
+              max={130}
+              step={1}
+              text={tControls("frameWidth")}
+            />
+            <EditorButton
+              icon={<RiRotateLockLine />}
+              value={angleDeg}
+              setValue={(val) => {
+                if (typeof val === "number") setAngleDeg(val);
+              }}
+              inputType="range"
+              min={0}
+              max={360}
+              step={1}
+              text={tControls("startAngle")}
+            />
+            <EditorButton
+              icon={<TiZoomIn />}
+              value={scale}
+              setValue={(val) => {
+                if (typeof val === "number") setScale(val);
+              }}
+              inputType="range"
+              min={0.1}
+              max={3}
+              step={0.1}
+              text={tControls("zoom")}
+            />
+            <ImageAddButton handleFileChange={handleFileChange} />
           </div>
 
-          {/* <button
-            className="absolute bg-green-500 px-10 py-3 rounded-lg text-white"
-            onClick={downloadImage}
-          >
-            Download
-          </button> */}
-        </>
+          <div className="flex flex-col gap-2 fixed right-2 z-50">
+            <EditorButton
+              icon={<IoColorFilterOutline />}
+              value={textColor}
+              setValue={(val) => {
+                if (typeof val === "string") setTextColor(val);
+              }}
+              inputType="color"
+              text={tControls("textColor")}
+            />
+            <EditorButton
+              icon={<RiAiGenerateText />}
+              value={text}
+              setValue={(val) => {
+                if (typeof val === "string") setText(val);
+              }}
+              inputType="text"
+              text={tControls("text")}
+            />
+            <EditorButton
+              icon={<RiFontSize />}
+              value={textSize}
+              setValue={(val) => {
+                if (typeof val === "number") setTextSize(val);
+              }}
+              inputType="number"
+              text={tControls("fontSize")}
+            />
+            <EditorButton
+              icon={<RiBold />}
+              value={fontWeight}
+              setValue={(val) => {
+                if (typeof val === "string") setFontWeight(val);
+              }}
+              inputType="select"
+              options={["300", "400", "500", "600", "700", "800", "900"]}
+              text={tControls("fontWeight")}
+            />
+            <EditorButton
+              icon={<RiFontFamily />}
+              value={fontFamily}
+              setValue={(val) => {
+                if (typeof val === "string") setFontFamily(val);
+              }}
+              inputType="select"
+              options={[
+                "Arial",
+                "Georgia",
+                "Helvetica",
+                "Times New Roman",
+                "Courier New",
+                "Verdana",
+                "Trebuchet MS",
+                "Comic Sans MS",
+                "Montserrat",
+                "Roboto",
+              ]}
+              text={tControls("fontFamily")}
+            />
+          </div>
+        </div>
       ) : (
         <CircleMenu
           radius={circleSize / 2}
           size={circleSize}
-          className={`border-2 border-secondary rounded-full mt-[-50px]`}
+          className="border-2 border-secondary rounded-full mt-[-50px]"
         >
           <EditorButton
             icon={<IoColorFilterOutline />}
@@ -193,6 +194,7 @@ export default function ControlsPanel({
               if (typeof val === "string") setTextColor(val);
             }}
             inputType="color"
+            text={tControls("textColor")}
           />
           <EditorButton
             icon={<RiAiGenerateText />}
@@ -201,6 +203,7 @@ export default function ControlsPanel({
               if (typeof val === "string") setText(val);
             }}
             inputType="text"
+            text={tControls("text")}
           />
           <EditorButton
             icon={<RiFontSize />}
@@ -209,6 +212,7 @@ export default function ControlsPanel({
               if (typeof val === "number") setTextSize(val);
             }}
             inputType="number"
+            text={tControls("fontSize")}
           />
           <EditorButton
             icon={<RiBold />}
@@ -218,11 +222,8 @@ export default function ControlsPanel({
             }}
             inputType="select"
             options={["300", "400", "500", "600", "700", "800", "900"]}
+            text={tControls("fontWeight")}
           />
-          {/* <FontFamilyButton
-            fontFamily={fontFamily}
-            setFontFamily={setFontFamily}
-          /> */}
           <EditorButton
             icon={<RiFontFamily />}
             value={fontFamily}
@@ -242,12 +243,13 @@ export default function ControlsPanel({
               "Montserrat",
               "Roboto",
             ]}
+            text={tControls("fontFamily")}
           />
           <button
             className="absolute bg-green-500 px-10 py-3 rounded-lg text-white"
             onClick={downloadImage}
           >
-            Download
+            {tControls("download")}
           </button>
           <ImageAddButton handleFileChange={handleFileChange} />
           <EditorButton
@@ -260,6 +262,7 @@ export default function ControlsPanel({
             min={0.1}
             max={3}
             step={0.1}
+            text={tControls("zoom")}
           />
           <EditorButton
             icon={<RiRotateLockLine />}
@@ -271,29 +274,28 @@ export default function ControlsPanel({
             min={0}
             max={360}
             step={1}
+            text={tControls("startAngle")}
           />
           <EditorButton
             icon={<RiFullscreenLine />}
             value={frameWidth}
             setValue={(val) => {
-              if (typeof val === "number") {
-                setFrameWidth(val);
-              }
+              if (typeof val === "number") setFrameWidth(val);
             }}
             inputType="range"
             min={50}
             max={130}
             step={1}
+            text={tControls("frameWidth")}
           />
           <EditorButton
             icon={<IoMdColorFill />}
             value={frameColor}
             setValue={(val) => {
-              if (typeof val === "string") {
-                setFrameColor(val);
-              }
+              if (typeof val === "string") setFrameColor(val);
             }}
             inputType="color"
+            text={tControls("frameColor")}
           />
         </CircleMenu>
       )}

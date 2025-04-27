@@ -1,5 +1,4 @@
 "use client";
-
 import { useState } from "react";
 import { LocaleSelector, Logo, ThemeSwitcher } from "../../atoms";
 import { Navbar } from "../../molecules";
@@ -11,7 +10,7 @@ function Header() {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <header className="bg-primary flex justify-between items-center py-4 px-7 relative">
+    <header className="bg-primary flex justify-between items-center py-4 relative px-4 base:px-6 md:px-12 lg:px-20 xl:px-28 2xl:px-32">
       <Logo />
 
       <div className="hidden md:flex items-center gap-4">
