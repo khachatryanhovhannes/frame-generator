@@ -149,6 +149,29 @@
     "comingSoonDescription": "We're working on a collection of powerful, ready-to-use templates to make your profile stand out even more. Stay tuned!",
     "backToHome": "Back to Home"
   },
+  "contact": {
+    "seo": {
+      "title": "Contact – Frame Generator",
+      "description": "Get in touch with the Frame Generator team. We’re here to help you enhance your professional profile effortlessly.",
+      "keywords": "contact, support, help, frame generator support, customer service",
+      "ogLocale": "en_US",
+      "openGraph": {
+        "title": "Contact – Frame Generator",
+        "description": "Reach out to us with any questions or feedback about Frame Generator.",
+        "siteName": "Frame Generator",
+        "imageAlt": "Contact Frame Generator Team"
+      },
+      "twitter": {
+        "title": "Contact – Frame Generator",
+        "description": "Have questions? Contact the Frame Generator team for support and assistance."
+      }
+    },
+    "hero": {
+      "title": "Let's Connect",
+      "description": "Have a question, feedback, or just want to say hello? We're always excited to hear from you.",
+      "linkedinButton": "Connect on LinkedIn"
+    }
+  },
   "donate": {
     "seo": {
       "title": "Donate – Frame Generator",
