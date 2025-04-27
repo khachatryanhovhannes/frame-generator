@@ -97,24 +97,6 @@
       ]
     }
   },
-  "ourTeam": {
-    "seo": {
-      "title": "Our Team – Frame Generator",
-      "description": "Meet the people behind the Frame Generator. Passionate professionals building tools that help you stand out.",
-      "keywords": "our team, about frame generator, meet the team, profile frame creators, branding experts",
-      "ogLocale": "en_US",
-      "openGraph": {
-        "title": "Our Team – Frame Generator",
-        "description": "Discover the minds behind the Frame Generator project.",
-        "siteName": "Frame Generator",
-        "imageAlt": "Photo of the Frame Generator team"
-      },
-      "twitter": {
-        "title": "Our Team – Frame Generator",
-        "description": "Get to know the team that brought Frame Generator to life."
-      }
-    }
-  },
   "generator": {
     "seo": {
       "title": "Generator – Frame Generator",
@@ -145,6 +127,27 @@
       "uploadImage": "Upload Image",
       "download": "Download"
     }
+  },
+  "templates": {
+    "seo": {
+      "title": "Templates – Frame Generator",
+      "description": "Discover ready-made professional profile frame templates. Coming soon to help you showcase your best self effortlessly.",
+      "keywords": "profile templates, frame templates, LinkedIn templates, professional branding, profile picture designs",
+      "ogLocale": "en_US",
+      "openGraph": {
+        "title": "Templates – Frame Generator",
+        "description": "Explore a wide selection of professional profile frame templates. Launching soon!",
+        "siteName": "Frame Generator",
+        "imageAlt": "Profile Frame Templates preview"
+      },
+      "twitter": {
+        "title": "Templates – Frame Generator",
+        "description": "Get ready to customize your profile with our upcoming template collection."
+      }
+    },
+    "comingSoonTitle": "Templates Coming Soon 🚀",
+    "comingSoonDescription": "We're working on a collection of powerful, ready-to-use templates to make your profile stand out even more. Stay tuned!",
+    "backToHome": "Back to Home"
   },
   "donate": {
     "seo": {
