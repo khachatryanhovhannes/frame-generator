@@ -15,6 +15,23 @@
     },
     "ogLocale": "en_US"
   },
+  "home": {
+    "hero": {
+      "title": "Create Stunning Profile Frames Effortlessly",
+      "description": "Build a professional, standout profile picture in just a few clicks. Whether for LinkedIn, Facebook, or your personal brand — we have you covered.",
+      "startButton": "Start Generating",
+      "linkedinButton": "Follow on LinkedIn"
+    },
+    "examples": {
+      "title": "Examples",
+      "description": "Explore some frames created with Frame Generator.",
+      "browseTemplatesButton": "Browse Templates"
+    },
+    "cta": {
+      "title": "Ready to Transform Your Profile?",
+      "description": "Join thousands who have elevated their online presence. It's easy, fast, and free!"
+    }
+  },
   "about": {
     "seo": {
       "title": "About – Frame Generator",

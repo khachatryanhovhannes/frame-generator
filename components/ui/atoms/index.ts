@@ -4,6 +4,8 @@ import NavItem from "./nav-item";
 import LocaleSelector from "./locale-selector";
 import EditorButton from "./editor-button";
 import ImageAddButton from "./image-add-button";
+import Button from "./button";
+import LinkedinButton from "./linkedin-button";
 
 export {
   Logo,
@@ -12,4 +14,6 @@ export {
   LocaleSelector,
   EditorButton,
   ImageAddButton,
+  Button,
+  LinkedinButton,
 };
