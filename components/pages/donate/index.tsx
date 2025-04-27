@@ -17,10 +17,10 @@ export default async function DonatePage() {
           </p>
 
           <Link
-            href="https://www.buymeacoffee.com/framegenerator"
+            href="https://buymeacoffee.com/khachatryaq"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-primary hover:bg-primary/90 text-white font-semibold px-8 py-3 rounded-lg shadow-md transition"
+            className="inline-flex items-center gap-2 bg-primary hover:bg-primary/90 font-semibold px-8 py-3 rounded-lg shadow-md transition"
           >
             <FaHeart className="w-5 h-5" />
             {t("button")}

@@ -17,8 +17,9 @@
   },
   "home": {
     "hero": {
-      "title": "Create Stunning Profile Frames Effortlessly",
-      "description": "Build a professional, standout profile picture in just a few clicks. Whether for LinkedIn, Facebook, or your personal brand — we have you covered.",
+      "title": "Welcome to Frame Generator ,Behind Every Great Profile.",
+      "description": "Your profile is your personal brand,make sure it says the right things.",
+      "description_second": "On LinkedIn, instagram, or anywhere ,we make you stand out.",
       "startButton": "Start Generating",
       "linkedinButton": "Follow on LinkedIn"
     },
@@ -28,8 +29,8 @@
       "browseTemplatesButton": "Browse Templates"
     },
     "cta": {
-      "title": "Ready to Transform Your Profile?",
-      "description": "Join thousands who have elevated their online presence. It's easy, fast, and free!"
+      "title": "Ready to Level Up Your Profile?",
+      "description": "Join for free, just like millions already!"
     }
   },
   "about": {
@@ -50,23 +51,23 @@
       }
     },
     "hero": {
-      "title": "Our Creation is Born from Love",
-      "description": "We believe that every individual deserves to present their best self. We're here to help them find and showcase their inner light."
+      "title": "You deserve to have new opportunities.",
+      "description": "Frame generator is a tool that helps complete your profile by highlighting your unique personality."
     },
     "cards": {
       "sectionTitle": "Our Vision and Mission",
       "sectionDescription": "We aspire to create a world where people can present themselves with confidence and inspiration.",
       "vision": {
         "title": "Vision",
-        "description": "We believe everyone can unlock their potential by presenting themselves correctly."
+        "description": "We believe everyone has hidden strength and the power to reach their best by presenting themselves the right way."
       },
       "mission": {
         "title": "Mission",
-        "description": "To create tools that empower personal branding and growth."
+        "description": "Our mission is to create tools that help you build and grow your personal brand."
       },
       "values": {
         "title": "Values",
-        "description": "Quality, creativity, authenticity, individuality."
+        "description": "Quality, Innovation, Efficiency, Creativity"
       }
     },
     "team": {
@@ -76,23 +77,23 @@
         {
           "name": "Hovhannes Khachatryan",
           "role": "Founder & Developer",
-          "description": "The mind and heart behind Frame Generator. Loves clean code, inspiring design, and impactful ideas.",
+          "description": "Creator of Frame Generator. Always solving problems before they even start.",
           "image": "/images/team/hovhannes.png",
           "linkedin": "https://www.linkedin.com/in/khachatryan-hovhannes/"
         },
         {
           "name": "Gayane Harutyunyan",
-          "role": "Copywriter",
-          "description": "Crafts words that resonate and connect. Passionate about branding and meaningful communication.",
+          "role": "Content Writer",
+          "description": "Believes in the power of words to shape a brand’s future.",
           "image": "/images/team/gayane.png",
-          "linkedin": "https://www.linkedin.com/in/armanpetrosyan/"
+          "linkedin": "https://www.linkedin.com/in/gayane-harutyunyan-076004250/"
         },
         {
-          "name": "Ani Mkrtchyan",
+          "name": "Eva Harutyunyan",
           "role": "Designer",
-          "description": "Shapes the look and feel of Frame Generator. Believes in the power of aesthetics and clarity.",
-          "image": "/images/team/ani.jpg",
-          "linkedin": "https://www.linkedin.com/in/ani-mkrtchyan/"
+          "description": "Believes simplicity is the most beautiful form of design.",
+          "image": "/images/team/eva.png",
+          "linkedin": "https://www.linkedin.com/in/evaharutyunyan/"
         }
       ]
     }
@@ -146,8 +147,8 @@
         "description": "Get ready to customize your profile with our upcoming template collection."
       }
     },
-    "comingSoonTitle": "Templates Coming Soon 🚀",
-    "comingSoonDescription": "We're working on a collection of powerful, ready-to-use templates to make your profile stand out even more. Stay tuned!",
+    "comingSoonTitle": "New Templates Coming Soon 🚀",
+    "comingSoonDescription": "We’re creating powerful new templates that will make your profile stand out.",
     "backToHome": "Back to Home"
   },
   "contact": {
@@ -191,8 +192,8 @@
       }
     },
     "content": {
-      "title": "Support Our Mission 🚀",
-      "description": "Your contribution helps us create more free tools to empower professionals worldwide. Every donation, big or small, fuels innovation and growth.",
+      "title": "Help us grow",
+      "description": "Your small donation could be the beginning of our next innovative idea. Become an essential part of our small team.",
       "button": "Donate & Support"
     }
   },
