@@ -12,7 +12,8 @@ interface UniversalEditorButtonPropsBase {
   min?: number;
   max?: number;
   step?: number;
-  options?: string[]; // ✅ Ավելացրինք SELECT-ի համար
+  options?: string[];
+  text?: string;
 }
 
 type ValueType<T extends InputType> = T extends "file"
@@ -46,6 +47,7 @@ function EditorButton<T extends InputType>({
   accept,
   options,
   extraClassName,
+  text,
 }: UniversalEditorButtonProps<T>) {
   const [isInputVisible, setIsInputVisible] = useState(false);
   const wrapperRef = useRef<HTMLDivElement>(null);
@@ -90,12 +92,14 @@ function EditorButton<T extends InputType>({
       <button
         type="button"
         onClick={handleButtonClick}
-        className={`text-2xl p-2 sm:text-3xl sm:p-3 md:text-4xl md:p-4 xl:text-5xl 3xl:text-6xl
-          border-2 rounded-full  bg-primary cursor-pointer block ${
-            extraClassName || ""
-          }`}
+        className={`text-2xl p-1 sm:p-2 sm:text-2xl md:text-3xl  2xl:text-4xl flex flex-col
+          justify-center items-center md:w-20 md:h-20 xl:w-24 xl:h-24  w-14 h-14 leading-none
+           rounded-full  bg-primary cursor-pointer ${extraClassName || ""}`}
       >
         {icon}
+        <p className="text-[10px] md:text-[14px] xl:text-[16px]">
+          {text || ""}
+        </p>
       </button>
 
       {(inputType === "color" || inputType === "file") && (
@@ -111,7 +115,7 @@ function EditorButton<T extends InputType>({
       {isInputVisible && (
         <>
           {inputType === "range" ? (
-            <div className="absolute left-full top-1/2 transform -translate-y-1/2 ml-4 bg-primary  p-3 rounded border shadow-md w-48">
+            <div className="absolute left-full top-1/2 transform -translate-y-1/2 ml-4 bg-primary  p-3 rounded shadow-md w-48">
               <input
                 type="range"
                 min={min}
@@ -132,7 +136,7 @@ function EditorButton<T extends InputType>({
               value={value as string}
               onChange={handleChange}
               autoFocus
-              className="absolute right-full top-1/2 transform -translate-y-1/2 mr-2 px-3 py-1 rounded border border-gray-300 bg-white text-black shadow-md w-48"
+              className="absolute right-full top-1/2 transform -translate-y-1/2 mr-2 px-3 py-1 rounded  -gray-300 bg-white text-black shadow-md w-48"
             >
               {options?.map((opt) => (
                 <option
@@ -154,7 +158,7 @@ function EditorButton<T extends InputType>({
               value={value as string | number}
               onChange={handleChange}
               autoFocus
-              className="absolute right-full top-1/2 transform -translate-y-1/2 mr-2 px-3 py-1 rounded border border-gray-300 bg-white text-black shadow-md w-24"
+              className="absolute right-full top-1/2 transform -translate-y-1/2 mr-2 px-3 py-1 rounded  -gray-300 bg-white text-black shadow-md"
             />
           )}
         </>
