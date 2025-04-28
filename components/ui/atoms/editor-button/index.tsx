@@ -175,6 +175,8 @@ function EditorButton<T extends InputType>({
               value={value as string | number}
               onChange={handleChange}
               autoFocus
+              min={min || undefined}
+              max={max || undefined}
               className="absolute right-full top-1/2 transform -translate-y-1/2 mr-2 px-3 py-1 rounded  -gray-300 bg-white text-black shadow-md"
             />
           )}

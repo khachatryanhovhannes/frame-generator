@@ -21,9 +21,9 @@ function ImageAddButton({ handleFileChange }: IImageAddButton) {
         <input
           id="upload"
           type="file"
-          accept="image/*"
+          accept="image/jpeg, image/png, image/webp"
           onChange={handleFileChange}
-          className="hidden"
+          className="w-0 h-0"
         />
       </button>
     </>

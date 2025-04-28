@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 import { ContactPage } from "@/components/pages";
+import Head from "next/head";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("contact.seo");
@@ -35,5 +36,27 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function Contact() {
-  return <ContactPage />;
+  return (
+    <>
+      <Head>
+        <link rel="canonical" href="https://framegenerator.net/contact" />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "ContactPage",
+              name: "Contact Frame Generator",
+              url: "https://framegenerator.net/contact",
+              description:
+                "Get in touch with the Frame Generator team for support, feedback, or inquiries.",
+            }),
+          }}
+        />
+      </Head>
+
+      <ContactPage />
+    </>
+  );
 }
