@@ -57,6 +57,23 @@ export default async function LocaleLayout(props: {
 
   return (
     <html lang={locale} suppressHydrationWarning>
+      <head>
+        <link rel="canonical" href="https://framegenerator.net/" />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Frame Generator",
+              url: "https://framegenerator.net",
+              description:
+                "Generate professional profile picture frames in seconds. Perfect for LinkedIn, Facebook, job applications, and more.",
+            }),
+          }}
+        />
+      </head>
       <body className="font-sans-armenian bg-background">
         <NextIntlClientProvider>
           <ThemeProvider

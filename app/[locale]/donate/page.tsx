@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 import { DonatePage } from "@/components/pages";
+import Head from "next/head";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("donate.seo");
@@ -35,5 +36,27 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function Donate() {
-  return <DonatePage />;
+  return (
+    <>
+      <Head>
+        <link rel="canonical" href="https://framegenerator.net/donate" />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              name: "Support Frame Generator",
+              url: "https://framegenerator.net/donate",
+              description:
+                "Support the Frame Generator project and help us create more awesome tools for LinkedIn and social media users!",
+            }),
+          }}
+        />
+      </Head>
+
+      <DonatePage />
+    </>
+  );
 }

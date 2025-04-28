@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://framegenerator.net/sitemap.xml

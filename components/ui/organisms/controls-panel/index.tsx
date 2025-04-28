@@ -146,6 +146,8 @@ export default function ControlsPanel({
                 setValue={(val) => {
                   if (typeof val === "number") setTextSize(val);
                 }}
+                min={10}
+                max={130}
                 inputType="number"
                 text={tControls("fontSize")}
               />
@@ -214,6 +216,8 @@ export default function ControlsPanel({
               if (typeof val === "number") setTextSize(val);
             }}
             inputType="number"
+            min={10}
+            max={130}
             text={tControls("fontSize")}
           />
           <EditorButton

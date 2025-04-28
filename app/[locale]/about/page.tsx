@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 import { AboutPage } from "@/components/pages";
+import Head from "next/head";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("about.seo");
@@ -35,5 +36,26 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function About() {
-  return <AboutPage />;
+  return (
+    <>
+      <Head>
+        <link rel="canonical" href="https://framegenerator.net/about" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              name: "About Frame Generator",
+              url: "https://framegenerator.net/about",
+              description:
+                "Learn more about Frame Generator, the tool helping users create stunning profile frames for LinkedIn, Facebook, and more.",
+            }),
+          }}
+        />
+      </Head>
+
+      <AboutPage />
+    </>
+  );
 }
