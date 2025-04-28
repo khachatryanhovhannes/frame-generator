@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 import { TemplatesPage } from "@/components/pages";
+import Head from "next/head";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("templates.seo");
@@ -35,5 +36,27 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function Templates() {
-  return <TemplatesPage />;
+  return (
+    <>
+      <Head>
+        <link rel="canonical" href="https://framegenerator.net/templates" />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              name: "Templates - Frame Generator",
+              url: "https://framegenerator.net/templates",
+              description:
+                "Explore a collection of ready-made LinkedIn profile frame templates. Choose your style and generate your profile frame instantly!",
+            }),
+          }}
+        />
+      </Head>
+
+      <TemplatesPage />
+    </>
+  );
 }
