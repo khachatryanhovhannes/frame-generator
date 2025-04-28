@@ -159,11 +159,11 @@ function EditorButton<T extends InputType>({
                 <option
                   key={opt}
                   value={opt}
-                  style={
-                    inputType === "select" && value === opt
-                      ? { fontWeight: "bold" }
-                      : {}
-                  }
+                  style={{
+                    fontFamily: opt,
+                    fontWeight: value === opt ? "bold" : "normal",
+                  }}
+                  className={`font-${opt}`}
                 >
                   {opt}
                 </option>
