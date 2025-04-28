@@ -23,7 +23,7 @@ function ImageAddButton({ handleFileChange }: IImageAddButton) {
           type="file"
           accept="image/jpeg, image/png, image/webp"
           onChange={handleFileChange}
-          className="w-0 h-0"
+          className="w-0 h-0 hidden"
         />
       </button>
     </>
