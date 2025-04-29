@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 function Logo() {
   const { theme } = useTheme();
   const [mounted, setMounted] = useState(false);
