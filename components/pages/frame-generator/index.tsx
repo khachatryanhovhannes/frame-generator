@@ -3,6 +3,12 @@ import { CanvasEditor, ControlsPanel } from "@/components/ui/organisms";
 import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 
+declare global {
+  interface Window {
+    gtag: (...args: [string, string, Record<string, unknown>?]) => void;
+  }
+}
+
 export default function FrameGenerator() {
   const [imageSrc, setImageSrc] = useState<string>("/user.png");
   const [frameColor, setFrameColor] = useState("#107038");
@@ -27,6 +33,17 @@ export default function FrameGenerator() {
     const reader = new FileReader();
     reader.onload = () => setImageSrc(reader.result as string);
     reader.readAsDataURL(file);
+  };
+
+  const handleDownloadClick = () => {
+    if (typeof window !== "undefined" && window.gtag) {
+      window.gtag("event", "download_frame", {
+        event_category: "button",
+        event_label: "Download Button",
+      });
+    }
+
+    downloadImage();
   };
 
   const downloadImage = () => {
@@ -83,7 +100,7 @@ export default function FrameGenerator() {
         setAngleDeg={setAngleDeg}
         scale={scale}
         setScale={setScale}
-        downloadImage={downloadImage}
+        handleDownloadClick={handleDownloadClick}
         circleSize={circleSize}
         isCompactMode={isCompactMode}
       />
@@ -107,7 +124,7 @@ export default function FrameGenerator() {
             <div className="w-full flex justify-center my-5">
               <button
                 className="absolute inline-block bg-green-700 hover:bg-green-800 text-white font-semibold px-8 py-3 rounded-lg shadow-md transition cursor-pointer"
-                onClick={downloadImage}
+                onClick={handleDownloadClick}
               >
                 {t("controls.download")}
               </button>
