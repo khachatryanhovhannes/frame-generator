@@ -36,7 +36,7 @@ interface IControlsPanelProps {
   setAngleDeg: (val: number) => void;
   scale: number;
   setScale: (val: number) => void;
-  downloadImage: () => void;
+  handleDownloadClick: () => void;
   isCompactMode: boolean;
   circleSize: number;
 }
@@ -61,7 +61,7 @@ export default function ControlsPanel({
   setAngleDeg,
   scale,
   setScale,
-  downloadImage,
+  handleDownloadClick,
   isCompactMode,
   circleSize,
 }: IControlsPanelProps) {
@@ -253,7 +253,7 @@ export default function ControlsPanel({
           />
           <button
             className="absolute -ml-16  inline-block bg-green-700 cursor-pointer hover:bg-green-800 text-white font-semibold px-8 py-3 rounded-lg shadow-md transition"
-            onClick={downloadImage}
+            onClick={handleDownloadClick}
           >
             {tControls("download")}
           </button>

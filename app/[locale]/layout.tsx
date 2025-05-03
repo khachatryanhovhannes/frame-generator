@@ -8,6 +8,7 @@ import { Footer, Header } from "@/components/ui/organisms";
 import type { Metadata } from "next";
 import "../globals.css";
 import BackToTop from "@/components/ui/atoms/back-to-top";
+import Script from "next/script";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations();
@@ -59,7 +60,18 @@ export default async function LocaleLayout(props: {
     <html lang={locale} suppressHydrationWarning>
       <head>
         <link rel="canonical" href="https://framegenerator.net/" />
-
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=G-L4WR2S8F41`}
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-L4WR2S8F41');
+          `}
+        </Script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
