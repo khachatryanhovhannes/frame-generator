@@ -8,13 +8,17 @@ const NAVBAR = [
     key: "generator",
   },
   {
+    href: "/banner-generator",
+    key: "banner-generator",
+  },
+  {
     href: "/about",
     key: "about",
   },
-  {
-    href: "/templates",
-    key: "templates",
-  },
+  // {
+  //   href: "/templates",
+  //   key: "templates",
+  // },
 
   {
     href: "/contact",

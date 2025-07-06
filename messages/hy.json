@@ -205,6 +205,72 @@
     "about": "Մեր Մասին",
     "templates": "Template-ներ",
     "donate": "Նվիրաբերել",
-    "contact": "Կապ"
+    "contact": "Կապ",
+    "banner-generator": "Banner Generator"
+  },
+  "bannerCreator": {
+    "seo": {
+      "title": "Online Banner Creator",
+      "description": "Create stunning custom banners for LinkedIn, Facebook, Twitter, and YouTube for free.",
+      "keywords": "banner creator, social media banner, linkedin banner, graphic design tool",
+      "openGraph": {
+        "title": "Free Online Banner Creator",
+        "description": "Design professional social media banners in minutes.",
+        "siteName": "YourAppName",
+        "imageAlt": "The official logo for the Banner Creator",
+        "ogLocale": "en_US"
+      },
+      "twitter": {
+        "title": "Create Your Banner | YourAppName",
+        "description": "Use our free tool to design your social media banners."
+      }
+    },
+    "topPanel": {
+      "undo": "Undo (Ctrl+Z)",
+      "redo": "Redo (Ctrl+Y)",
+      "addText": "Text",
+      "addImage": "Image",
+      "addShape": "Shape",
+      "download": "Download"
+    },
+    "layerPanel": {
+      "title": "Layers",
+      "noLayers": "No layers yet.",
+      "layer": "Layer",
+      "textLayerName": "Text",
+      "imageLayerName": "Image",
+      "shapeLayerName": "Shape",
+      "hideLayer": "Hide Layer",
+      "showLayer": "Show Layer",
+      "bringForward": "Bring Forward",
+      "sendBackward": "Send Backward",
+      "duplicate": "Duplicate Layer (Ctrl+D)",
+      "delete": "Delete Layer"
+    },
+    "propertiesPanel": {
+      "selectLayer": "Select a layer to see its properties.",
+      "rotation": "Rotation",
+      "opacity": "Opacity",
+      "filters": "Filters",
+      "brightness": "Brightness",
+      "contrast": "Contrast",
+      "saturate": "Saturate",
+      "grayscale": "Grayscale",
+      "blur": "Blur",
+      "textSettings": "Text Settings",
+      "font": "Font",
+      "color": "Color",
+      "size": "Size",
+      "lineHeight": "Line Height",
+      "bold": "Bold",
+      "italic": "Italic",
+      "underline": "Underline",
+      "shadow": "Shadow",
+      "shapeSettings": "Shape Settings",
+      "fillColor": "Fill Color",
+      "strokeColor": "Stroke Color",
+      "strokeWidth": "Stroke Width",
+      "borderRadius": "Border Radius"
+    }
   }
 }
