@@ -205,6 +205,77 @@
     "about": "About Us",
     "templates": "Templates",
     "donate": "Donate",
-    "contact": "Contact"
+    "contact": "Contact",
+    "banner-generator": "Banner Generator"
+  },
+  "bannerCreator": {
+    "seo": {
+      "title": "Banner Generator – Frame Generator",
+      "description": "Design professional and personalized banners for LinkedIn, Facebook, Twitter, and YouTube. Stand out with a unique and polished look.",
+      "keywords": "banner generator, LinkedIn banner creator, Facebook cover design, social media graphics, YouTube banner, Twitter header, personal branding",
+      "openGraph": {
+        "title": "Banner Generator – Frame Generator",
+        "description": "Easily create polished and engaging banners for your favorite platforms with our free, powerful editor.",
+        "siteName": "Frame Generator",
+        "imageAlt": "Banner Generator preview",
+        "ogLocale": "en_US"
+      },
+      "twitter": {
+        "title": "Banner Generator – Frame Generator",
+        "description": "Create stunning banners for LinkedIn, Twitter, and more. Completely free and easy to use."
+      }
+    },
+    "defaultText": "New Text",
+    "topPanel": {
+      "undo": "Undo (Ctrl+Z)",
+      "redo": "Redo (Ctrl+Y)",
+      "addText": "Add Text",
+      "addImage": "Upload Image",
+      "addShape": "Insert Shape",
+      "download": "Download Banner"
+    },
+    "layerPanel": {
+      "title": "Layers",
+      "noLayers": "No layers added yet.",
+      "layer": "Layer",
+      "textLayerName": "Text",
+      "imageLayerName": "Image",
+      "shapeLayerName": "Shape",
+      "hideLayer": "Hide",
+      "showLayer": "Show",
+      "bringForward": "Bring Forward",
+      "sendBackward": "Send Backward",
+      "duplicate": "Duplicate (Ctrl+D)",
+      "delete": "Delete"
+    },
+    "propertiesPanel": {
+      "selectLayer": "Select a layer to customize.",
+      "rotation": "Rotate",
+      "opacity": "Opacity",
+      "filters": "Image Filters",
+      "brightness": "Brightness",
+      "contrast": "Contrast",
+      "saturate": "Saturation",
+      "grayscale": "Grayscale",
+      "blur": "Blur",
+      "imageSettings": "Image Adjustments",
+      "textSettings": "Text Style",
+      "textContent": "Text Content",
+      "textPlaceholder": "Enter text...",
+      "textAlignment": "Text Alignment",
+      "font": "Font",
+      "color": "Color",
+      "size": "Size",
+      "lineHeight": "Line Height",
+      "bold": "Bold",
+      "italic": "Italic",
+      "underline": "Underline",
+      "shadow": "Shadow",
+      "shapeSettings": "Shape Options",
+      "fillColor": "Fill Color",
+      "strokeColor": "Border Color",
+      "strokeWidth": "Border Width",
+      "borderRadius": "Corner Radius"
+    }
   }
 }

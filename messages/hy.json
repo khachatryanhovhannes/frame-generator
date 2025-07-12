@@ -205,6 +205,77 @@
     "about": "Մեր Մասին",
     "templates": "Template-ներ",
     "donate": "Նվիրաբերել",
-    "contact": "Կապ"
+    "contact": "Կապ",
+    "banner-generator": "Banner Generator"
+  },
+  "bannerCreator": {
+    "seo": {
+      "title": "Banner Generator – Frame Generator",
+      "description": "Ստեղծիր պրոֆեսիոնալ և անհատականացված բաններներ LinkedIn-ի, Facebook-ի, Twitter-ի և YouTube-ի համար։ Առանձնացիր եզակի ու խնամված տեսքով։",
+      "keywords": "բաններ գեներատոր, LinkedIn բաններ դիզայն, Facebook վերնագրի ձևավորում, սոցիալական մեդիա գրաֆիկա, YouTube բաններ, Twitter վերնագիր, անհատական բրենդավորում",
+      "openGraph": {
+        "title": "Banner Generator – Frame Generator",
+        "description": "Ստեղծիր պրոֆեսիոնալ և տպավորիչ banner-ներ տարբեր հարթակների համար մեր հզոր և անվճար խմբագրիչով։",
+        "siteName": "Frame Generator",
+        "imageAlt": "Բաններ Գեներատորի նախադիտում",
+        "ogLocale": "hy_AM"
+      },
+      "twitter": {
+        "title": "Banner Generator – Frame Generator",
+        "description": "Ստեղծիր պրոֆեսիոնալ և անհատականացված բաններներ LinkedIn-ի, Facebook-ի, Twitter-ի և YouTube-ի համար։ Առանձնացիր եզակի ու խնամված տեսքով։"
+      }
+    },
+    "defaultText": "Նոր տեքստ",
+    "topPanel": {
+      "undo": "Undo (Ctrl+Z)",
+      "redo": "Redo (Ctrl+Y)",
+      "addText": "Տեքստ",
+      "addImage": "Նկար",
+      "addShape": "Տեղադրել Պատկեր",
+      "download": "Ներբեռնել"
+    },
+    "layerPanel": {
+      "title": "Շերտեր",
+      "noLayers": "Շերտեր դեռ չկան։",
+      "layer": "Շերտ",
+      "textLayerName": "Տեքստ",
+      "imageLayerName": "Նկար",
+      "shapeLayerName": "Ձև",
+      "hideLayer": "Թաքցնել",
+      "showLayer": "Ցույց տալ",
+      "bringForward": "Բերել առաջ",
+      "sendBackward": "Ուղարկել ետ",
+      "duplicate": "Կրկնօրինակել (Ctrl+D)",
+      "delete": "Ջնջել"
+    },
+    "propertiesPanel": {
+      "selectLayer": "Ընտրիր շերտը՝ այն կարգավորելու համար։",
+      "rotation": "Պտույտ",
+      "opacity": "Թափանցիկություն",
+      "filters": "Ֆիլտրեր",
+      "brightness": "Պայծառություն",
+      "contrast": "Հագեցվածություն",
+      "saturate": "Հագեցում",
+      "grayscale": "Մոխրագույն",
+      "blur": "Մշուշեցում",
+      "imageSettings": "Նկարի կարգավորումներ",
+      "textSettings": "Տեքստի կարգավորումներ",
+      "textContent": "Տեքստի բովանդակություն",
+      "textPlaceholder": "Մուտքագրիր տեքստ...",
+      "textAlignment": "Տեքստի հավասարեցում",
+      "font": "Տառատեսակ",
+      "color": "Գույն",
+      "size": "Չափ",
+      "lineHeight": "Տողի բարձրություն",
+      "bold": "Թավ",
+      "italic": "Շեղագիր",
+      "underline": "Ընդգծված",
+      "shadow": "Ստվեր",
+      "shapeSettings": "Ձևի կարգավորումներ",
+      "fillColor": "Լցնելու գույն",
+      "strokeColor": "Սահմանի գույն",
+      "strokeWidth": "Սահմանի լայնություն",
+      "borderRadius": "Սահմանի կորություն"
+    }
   }
 }

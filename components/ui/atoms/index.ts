@@ -6,6 +6,11 @@ import EditorButton from "./editor-button";
 import ImageAddButton from "./image-add-button";
 import Button from "./button";
 import LinkedinButton from "./linkedin-button";
+import ActionButton from "./action-button";
+import RangeSlider from "./range-slider";
+import ColorPicker from "./color-picker";
+import Checkbox from "./checkbox";
+import FileUploadButton from "./file-upload-button";
 
 export {
   Logo,
@@ -16,4 +21,9 @@ export {
   ImageAddButton,
   Button,
   LinkedinButton,
+  ActionButton,
+  RangeSlider,
+  ColorPicker,
+  Checkbox,
+  FileUploadButton,
 };

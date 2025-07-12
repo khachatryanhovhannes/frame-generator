@@ -4,6 +4,7 @@ import AboutPage from "./about";
 import TemplatesPage from "./templates";
 import ContactPage from "./contact";
 import DonatePage from "./donate";
+import BannerGenerator from "./banner-generator";
 
 export {
   FrameGenerator,
@@ -12,4 +13,5 @@ export {
   TemplatesPage,
   ContactPage,
   DonatePage,
+  BannerGenerator,
 };
